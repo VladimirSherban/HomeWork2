@@ -91,12 +91,12 @@ public class Main {
 
     public static void task8() {
         System.out.println("Задача 8");
-        var workingHours = 640;
-        var timeOfOneEmployee = 8;
+        var workingHours = 640.0;
+        var timeOfOneEmployee = 8.0;
         var totalEmployees = workingHours / timeOfOneEmployee;
         System.out.println("Всего работников в компании : " + totalEmployees + " сотрудников");
 
-        var newWorkers = 94;
+        var newWorkers = 94.0;
         totalEmployees = totalEmployees + newWorkers;
         var timeSpend = workingHours / totalEmployees;
         System.out.println("Если в компании работает " + totalEmployees + " человек, то всего " + timeSpend +
