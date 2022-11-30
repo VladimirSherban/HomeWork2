@@ -36,14 +36,14 @@ public class Main {
 
     public static void task3() {
         System.out.println("Задача 3");
-        var dog = 8;
+        var dog = 8.0;
         var cat = 3.6;
         var paper = 763789;
         System.out.println("dog = " + dog + " cat = " + cat + " paper = " + paper);
 
-        dog = dog - 3;
-        cat = cat - 3;
-        paper = paper - 3;
+        dog = dog - 3.5;
+        cat = cat - 1.6;
+        paper = paper - 7639;
         System.out.println("dog = " + dog + " cat = " + cat + " paper = " + paper);
     }
 
